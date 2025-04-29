@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Visit Chicago</string>
+    <string-array name="Attractions">
+        <item>Millennium Park</item>
+        <item>Willis Tower</item>
+        <item>Navy Pier</item>
+        <item>Adler Planetarium</item>
+        <item>Art Institute of Chicago</item>
+    </string-array>
+    <string-array name="Restaurants">
+        <item>3 Arts Club</item>
+        <item>The Purple Pig</item>
+        <item>Wood</item>
+        <item>Roka Akor</item>
+        <item>Girl &amp; the Goat</item>
+    </string-array>
+    <string-array name="WebSites_Attractions">
+        <item>https://www.chicago.gov/city/en/depts/dca/supp_info/millennium_park.html</item>
+        <item>https://www.willistower.com/</item>
+        <item>https://navypier.org/</item>
+        <item>https://www.adlerplanetarium.org/</item>
+        <item>https://www.artic.edu/</item>
+    </string-array>
+    <string-array name="WebSites_Restaurants">
+        <item>https://rh.com/us/en/chicago/restaurant</item>
+        <item>https://thepurplepigchicago.com/</item>
+        <item>https://www.woodchicago.com/</item>
+        <item>https://rokaakor.com/</item>
+        <item>https://www.girlandthegoat.com/chicago</item>
+    </string-array>
+</resources>

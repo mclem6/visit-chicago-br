@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttractionsActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_file"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/attractions"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:name="edu.uic.cs478.spring2025.project3_br.AttractionsFragment" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/webview"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
